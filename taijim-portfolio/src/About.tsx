@@ -87,7 +87,7 @@ export default function About({
     <section id="about" ref={ref} className="fx" aria-label="About">
       <div className="ab-t">
         <div className="mono">About me / 001</div>
-        <h2>I engineer the full stack.</h2>
+        <h2>I Build the Logic Behind the Magic.</h2>
         <PillText />
       </div>
       <Terminal autoPlay={terminalReady} onOpenProject={onOpenProject} />

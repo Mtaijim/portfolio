@@ -63,7 +63,7 @@ export default function Contact() {
           <a href={CFG.twitter} target="_blank" rel="noopener">
             Twitter / X
           </a>
-          <a href={CFG.email}>Email</a>
+          <a href={`mailto:${CFG.email}`}>Email</a>
         </nav>
       </div>
       <form id="cf" autoComplete="on" onSubmit={send}>

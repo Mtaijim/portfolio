@@ -745,3 +745,15 @@ html {
 #contact {
   will-change: opacity, transform;
 }
+
+/* Hero wordmark: the canvas is positioned by WordmarkName.tsx (it extends past the name for the disc and handles) */
+.wm {
+  position: relative;
+  width: 100%;
+}
+.wm canvas {
+  position: absolute;
+  right: auto;
+  bottom: auto;
+  pointer-events: none;
+}
